@@ -6,7 +6,7 @@
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <span class="ml-3 text-xl">Ruby Kim</span>
       </a>
-      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
         <a href="/" class="mr-5 hover:text-gray-900">Home</a>
         <a href="#about" class="mr-5 hover:text-gray-900">About</a>
         <a href="#research" class="mr-5 hover:text-gray-900">Research</a>
@@ -20,78 +20,71 @@
     </div>
   </header>
 
-  <section class="text-gray-700 body-font">
-    <div class="container px-5 py-20 mx-auto flex flex-wrap">
-      <div class="w-1/4 rounded overflow-hidden">
-        <img alt="feature" class="object-contain rounded" src="static/rubypic.JPG">
-        </div>
-    <div class="flex flex-col flex-wrap -mb-10 w-2/3 lg:py-6 lg:px-12 mx-5 text-left">
-      <div class="flex flex-col mb-10 lg:items-start items-center">
-        
-          <div class="flex-grow">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    /* Create two columns that sit next to each other */
+    .column {
+      padding: 20px;
+    }
+    </style>
+    </head>
+  
+  <section id="about"> 
+  <hr class="border-0 bg-gray-400 text-gray-400 h-px mt-20" style="margin-right:40%; margin-left:40%">
+  <h2 class="text-gray-900 font-medium text-center text-lg">ABOUT ME</h2>
+  <div class="text-center w-full">
+    <hr class="border-0 bg-gray-400 text-gray-400 h-px mb-10" style="margin-right:40%; margin-left:40%">
+  </div>
 
-            <p class="text-gray-900 text-base title-font font-semibold mb-2">Position</p>
-            <p class="text-gray-900 text-base title-font">PhD Candidate</p>
-            <p class="text-gray-900 text-base title-font mb-5">Duke University Mathematics Department</p>
-            <p class="text-gray-900 text-base title-font font-semibold mb-2">Office</p>
-            <p class="text-gray-900 text-base title-font mb-5">Physics 08</p>
-            <p class="text-gray-900 text-base title-font font-semibold mb-2">Interests</p>
-            <p class="text-gray-900 text-base mb-5">Mathematical Biology, Dynamical Systems, Numerical Analysis, Mathematics Education</p>    
-        </div>
-      </div>
-
+  <div class="px-20 flex-row flex flex-wrap justify-center">
+    <div class="column w-1/2 lg:w-1/4">
+      <img src="static/rubypic.JPG" alt="..." class="shadow-lg rounded max-w-full h-auto align-middle border-none" />
     </div>
+    <div class="column w-full lg:w-2/4">
+      <p class="text-gray-700 text-justify text-base mb-3">I am a fourth year PhD student at Duke University interested in mathematical biology and dynamical systems.
+        I am currently working with Dr. Michael Reed on the mathematical modeling of circadian rhythms, and on modeling sex differences in one-carbon metabolism.
+        I am also interested in bifurcation theory and numerical analysis.
+        </p>
+      <p class="text-gray-700 text-justify text-base">I was an Instructor of Record for Math 105L during Fall 2018 and Fall 2019, and for Math 106L during Spring 2020.
+        In Spring 2019, I started the Duke chapter of the Association for Women in Mathematics (AWM). I am also currently the president of the Duke chapter
+        of the Society for Industrial and Applied Mathematics (SIAM).
+        </p>     
+    </div>    
+  </div>
+</section> 
+
+<section id="research">
+  <hr class="border-0 bg-gray-400 text-gray-400 h-px mt-20" style="margin-right:40%; margin-left:40%">
+  <h2 class="text-gray-900 font-medium text-center text-lg">RESEARCH</h2>
+  <div class="text-center w-full">
+    <hr class="border-0 bg-gray-400 text-gray-400 h-px mb-10" style="margin-right:40%; margin-left:40%">
+  </div>
+
+  <div class="px-20 flex-row flex flex-wrap justify-center">
+    <div class="column w-full lg:w-4/12">
+      <p class="text-gray-700 text-justify text-base mb-2"><b>[2020]</b> Kim, Ruby and Reed, Michael (Submitted). "A Mathematical Model of Circadian Rhythms and Dopamine."</p>
+    </div>    
+    <div class="column w-1/2 lg:w-5/12">
+      <img alt="..." class="max-w-full h-auto align-middle border-none" src="static/davar.png">
     </div>
-    </section>
+  </div>
 
-    <section class="text-gray-700 body-font" id="about">
-    <div class="w-3/4 container px-auto pb-20 mx-auto flex flex-wrap">
-        <div class="border border-gray-400 lg:border-gray-400 bg-white rounded-b rounded-t p-4 flex flex-col justify-between leading-normal">
-          <div class="mb-2">
-            <div class="text-gray-900 font-medium text-xl mb-3">About Me</div>
-            <p class="text-gray-700 text-base mb-3">I am a fourth year PhD student at Duke University interested in mathematical biology and dynamical systems.
-                I am currently working with Dr. Michael Reed on the mathematical modeling of circadian rhythms, and on modeling sex differences in one-carbon metabolism.
-                I am also interested in bifurcation theory and numerical analysis.
-                </p>
-            <p class="text-gray-700 text-base">I was an Instructor of Record for Math 105L during Fall 2018 and Fall 2019, and for Math 106L during Spring 2020.
-                In Spring 2019, I started the Duke chapter of the Association for Women in Mathematics (AWM). I am also currently the president of the Duke chapter
-                of the Society for Industrial and Applied Mathematics (SIAM).
-                </p>
-            </div>
-          </div>   
-        </div>
-      </div>
-    </section>
-
-    <section class="text-gray-700 body-font" id="research">
-        <div class="container px-5 pb-10 mx-auto flex flex-wrap">
-        <p class="text-gray-900 text-xl font-medium mb-5">Research</p>
-        <div class="container flex flex-col md:flex-row justify-between">
-            <div class="flex flex-col flex-wrap text-left mb-5">
-              
-                      <p class="text-gray-900 text-base mb-2"><b>[2020]</b> Kim, Ruby and Reed, Michael (Submitted)</p>
-                      <p class="text-gray-900 text-base mb-2">"A Mathematical Model of Circadian Rhythms and Dopamine."</p>
-            </div>
-            
-            <!-- <div class="ml-5 lg:ml-20 rounded overflow-hidden">
-            <img alt="feature" class="object-cover rounded" src="static/tumorimmune.jpg">
-            </div> -->
-        </div>
-        <div class="container flex flex-col md:flex-row justify-between">
-            <div class="flex flex-col flex-wrap text-left">
-              
-                      <p class="text-gray-900 text-base mb-2"><b>[2018]</b> Kim, Ruby (main author); Woods II, Timothy; and Radunskaya, Ami (faculty adviser)</p>
-                      <p class="text-gray-900 text-base mb-2">"Mathematical Modeling of Tumor Immune Interactions: A Closer Look at the Role of a PD-L1 Inhibitor in Cancer Immunotherapy," 
-                          Spora: A Journal of Biomathematics: Vol. 4, 25–41.</p>
-                      <p class="text-gray-900 text-base mb-2">DOI: http://doi.org/10.30707/SPORA4.1Radunskaya</p>
-                      <p class="text-gray-900 text-base mb-2">Available at: https://ir.library.illinoisstate.edu/spora/vol4/iss1/3</p>   
-            </div>
-            
-            <div class="ml-5 lg:ml-20 rounded overflow-hidden">
-            <img alt="feature" class="object-cover rounded" src="static/tumorimmune.jpg">
-            </div>
+  <div class="px-20 flex-row flex flex-wrap justify-center">
+        <p class="column w-full lg:w-1/2 text-gray-700 text-justify text-base mb-2"><b>[2018]</b> Kim, Ruby (main author); Woods II, Timothy; and Radunskaya, Ami (faculty adviser). 
+          "Mathematical Modeling of Tumor Immune Interactions: A Closer Look at the Role of a PD-L1 Inhibitor in Cancer Immunotherapy," Spora: A Journal of Biomathematics: Vol. 4, 25–41. 
+          DOI: http://doi.org/10.30707/SPORA4.1Radunskaya. Available at: <a href="https://ir.library.illinoisstate.edu/spora/vol4/iss1/3">https://ir.library.illinoisstate.edu/spora/vol4/iss1/3</a></p>
+        <div class="column w-1/2 lg:w-1/4">
+          <img alt="..." class="max-w-full h-auto align-middle border-none" src="static/tumorimmune.jpg">
         </div>
         </div>
-       
-        </section>
+  </section>
 
