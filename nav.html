@@ -24,7 +24,7 @@
         <ul class="flex flex-col lg:flex-row list-none mr-auto">
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 lg:flex hidden items-center text-xs uppercase font-bold"
               href="/research.html"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -39,9 +39,19 @@
           id="example-collapse-navbar"
         >
 
+      <!--new CV button shows when screen is small-->
+        <div
+        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start lg:ml-auto"
+      >
+        <a
+          class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
+          href="/research.html"
+          >CV</a>
+      </div>
+
       <!--Research button-->
         <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start lg:ml-auto"
       >
         <a
           class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800 lg:text-white"
@@ -68,13 +78,23 @@
           href="/teaching.html"
           >Service</a>
       </div>
+
+      <!--new Contact button shows when screen is small-->
+      <div
+        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start lg:ml-auto"
+      >
+        <a
+          class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
+          href="mailto:ruby.kim@duke.edu"
+          >Contact</a>
+      </div>
     </div>
 
-      <!--Contact button-->
+      <!--Contact button shows when large-->
             <li class="flex items-center">
               <a href="mailto:ruby.kim@duke.edu"
                 class="
-                bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                lg:block hidden bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                 type="button"
                 style="transition: all 0.15s ease 0s;"
               >
