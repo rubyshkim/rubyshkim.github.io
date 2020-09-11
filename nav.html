@@ -1,72 +1,43 @@
 <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
-    >
-      <div
-        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
-      >
-      <!--Home button-->
-        <div
-          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-        >
-          <a
-            class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-            href="/"
-            >Ruby Kim</a
-          ><button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            onclick="toggleNavbar('example-collapse-navbar')"
-          >
-            <i class="text-white fas fa-bars"></i>
-          </button>
-        </div>
+  class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-700 bg-opacity-50"
+  style="position:fixed;">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <!--Home button-->
+    <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+      <a class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+        href="/">Ruby Kim</a><button
+        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+        type="button" onclick="toggleNavbar('example-collapse-navbar')">
+        <i class="text-white fas fa-bars"></i>
+      </button>
+    </div>
 
-        <ul class="flex flex-col lg:flex-row list-none mr-auto">
-          <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 lg:flex hidden items-center text-xs uppercase font-bold"
-              href="/cv.html"
-              ><i
-                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-              ></i>
-              CV</a
-            >
-          </li>
-        </ul>
-        
-        <div
-          class="lg:flex flex-grow bg-white lg:bg-transparent lg:shadow-none hidden"
-          id="example-collapse-navbar"
-        >
+    <ul class="flex flex-col lg:flex-row list-none mr-auto">
+      <li class="flex items-center">
+        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 lg:flex hidden items-center text-xs uppercase font-bold"
+          href="/cv.html"><i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+          CV</a>
+      </li>
+    </ul>
+
+    <div class="lg:flex flex-grow bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
 
       <!--new CV button shows when screen is small-->
-        <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start lg:ml-auto"
-      >
-        <a
-          class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
-          href="/cv.html"
-          >CV</a>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start lg:ml-auto">
+        <a class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
+          href="/cv.html">CV</a>
       </div>
 
       <!--Research button-->
-        <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-      >
-        <a
-          class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800 lg:text-white"
-          href="/research.html"
-          >Research</a>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800 lg:text-white"
+          href="/research.html">Research</a>
       </div>
 
       <!--Teaching button-->
-      <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-      >
-        <a
-          class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800 lg:text-white"
-          href="/teaching.html"
-          >Teaching</a>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm lg:hover:text-gray-300 font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800 lg:text-white"
+          href="/teaching.html">Teaching</a>
       </div>
 
       <!--
@@ -81,28 +52,22 @@
       -->
 
       <!--new Contact button shows when screen is small-->
-      <div
-        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-      >
-        <a
-          class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
-          href="mailto:ruby.kim@duke.edu"
-          >Contact</a>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm lg:hidden font-bold leading-relaxed inline-block mr-4 px-3 py-2 whitespace-no-wrap uppercase text-gray-800"
+          href="mailto:ruby.kim@duke.edu">Contact</a>
       </div>
     </div>
 
-      <!--Contact button shows when large-->
-            <li class="flex items-center">
-              <a href="mailto:ruby.kim@duke.edu"
-                class="
+    <!--Contact button shows when large-->
+    <li class="flex items-center">
+      <a href="mailto:ruby.kim@duke.edu"
+        class="
                 lg:block hidden bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s;"
-              >
-              <i class="fas fa-envelope-square"></i> Contact
-            </a>
-            </li>
-         
-        
-      </div>
-    </nav>
+        type="button" style="transition: all 0.15s ease 0s;">
+        <i class="fas fa-envelope-square"></i> Contact
+      </a>
+    </li>
+
+
+  </div>
+</nav>
