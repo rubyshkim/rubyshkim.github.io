@@ -28,6 +28,20 @@
     $(function () {
       $("#nav-placeholder").load("nav.html");
     });
+
+    function showMore() {
+      if ($("#extra-block").hasClass("hidden")) {
+        $("#hidden-toggle").text("Show less");
+        $("#extra-block").removeClass("hidden");
+        location.href="#teaching-experience";
+      }
+      else {
+        $("#extra-block").addClass("hidden");
+        $("#hidden-toggle").text("Show more");
+        location.href="#statement";
+      }
+
+    }
   </script>
   <!--end of Navigation bar-->
 
@@ -42,7 +56,7 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-auto ml-auto mr-auto text-center">
             <div class="px-12">
-              <h1 class="text-white font-semibold text-2xl">
+              <h1 id="statement" class="text-white font-semibold text-2xl">
                 Teaching Statement</h1>
             </div>
 
@@ -71,7 +85,7 @@
               and reaching a collective feeling of accomplishment once everyone understands a concept.
               Since high school, my dream has been to teach mathematics.
             </p>
-            <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
+            <h1 id="teaching-experience" class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
               Teaching Experience
             </h1>
             <p class="mb-4 flex text-lg text-gray-800 text-justify">
@@ -83,96 +97,117 @@
               problems
               or general concepts with classmates and instructors.
             </p>
-            <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
-              Perspective on Learning
-            </h1>
-            <p class="mb-4 flex text-lg text-gray-800 text-justify">
-              I encourage students to avoid rote application of formulas and techniques, and instead focus on
-              approaching
-              the material conceptually. I want my students to learn to be comfortable with not knowing answers
-              immediately,
-              and to gain confidence in their knowledge and skillset to try new ideas. In class, my students will
-              explore one
-              theorem in multiple ways —algebraically, geometrically, numerically, etc —and practice how to compare and
-              choose.
-              Not only does this lead to a deeper understanding of the material, but my students learn flexible problem
-              solving
-              skills which can be used across all disciplines.
-            </p>
-            <p class="mb-4 flex text-lg text-gray-800 text-justify">
-              However, I recognize that this is much easier said than done, especially in the presence of pre-existing
-              barriers to mathematics.
-              For example, 105L and 106L are often the first math classes a student will take at Duke, and many high
-              schools,
-              both U.S. and international, focus on standardized testing over conceptual learning. Not only do
-              standardized tests
-              prevent students from engaging with the material in a productive way, but they have also proven to be
-              biased against women,
-              gender minorities, and BIPOC (Moss, 1989), and are poor indicators of success (Kartal, 2016).
-            </p>
-            <p class="mb-4 flex text-lg text-gray-800 text-justify">
-              Some of my students struggled with (or have not taken) the AP Calculus exam and initially lacked
-              confidence in mathematics.
-              However, after covering foundational mathematical concepts without any formulas or memorization, they
-              learned how to build
-              more complex ideas from the ground up. For instance, in Math 106L, we spent more than a week practicing
-              how to approximate
-              the area under a curve using Riemann sums, simply by adding up the areas of rectangles that roughly fill
-              the area.
-              Then, as a class we discussed how to improve our estimate by using more rectangles, each smaller in width.
-              Finally, we establised the exact area under a curve —the definite integral —as the Riemann sum of n
-              rectangles,
-              with n approaching infinity.
-            </p>
-            <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
-              Teaching Values
-            </h1>
-            <p class="mb-4 flex text-lg text-gray-800 text-justify">
-              I try to adapt my teaching style to the composition of students in a particular semester.
-              My 105L class during Fall 2018 had four students, which allowed for individualized attention.
-              I had my students up at the chalkboard with me regularly, in place of timed quizzes.
-              In Fall 2019, my 105L class had 17 students, a perfect size for doing in-class activities
-              in groups of three or four. During lectures, I had students chime in or ask questions, and I regularly
-              had students volunteer to come up to the board to explain a problem. To give students more opportunities
-              for individualized attention in my larger classes, I arrive to class 30 minutes early and leave 30 minutes
-              late each day, hold extra office hours, and check in regularly with students who have struggled with the
-              material.
-            </p>
-            <p class="mb-4 text-lg text-gray-800 text-justify">
-              Additionally, I take student feedback very seriously. I rely a lot on my interactions with students in
-              class and
-              during office hours, as well as on
-              <a href="#feedback" class="text-blue-700" style="text-decoration:underline;">written feedback</a>. I pay
-              attention to the reactions of my students during class,
-              ask lots of questions, and slow down when needed. I am always adapting to what works. My favorite student
-              feedback,
-              from office hours, was one asking for more graphs and pictures. Even for calculus concepts often discussed
-              algebraically,
-              a few extra graphs on the board helped some students to grasp the concepts better, and others to
-              understand a new perspective
-              and gain a deeper understanding of the material.
-            </p>
-            <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
-              Diversity and Inclusion
-            </h1>
-            <p class="mb-4 text-lg text-gray-800 text-justify">
-              Finally, I am a strong proponent of diversity, equity, and inclusion (DEI) work in mathematics. I spend a
-              lot of time organizing
-              for the Duke chapter of the Association for Women in Mathematics (AWM), a club dedicated to creating an
-              inclusive and tight-knit
-              community of mathematicians at Duke, and to promoting interest in mathematics. Besides through AWM, I
-              actively support all departmental
-              DEI initiatives. Recently, the Duke mathematics department has been discussing antiracist plans in
-              response to a
-              <a href="https://tinyurl.com/mathduke" class="text-blue-700"
-                style="text-decoration:underline;">petition</a> written on August 3rd, 2020. I believe that my impact as
-              an educator extends beyond the classroom,
-              and my goal as a math teacher is to not only teach well, but to help create support and community for my
-              students and colleagues.
-            </p>
 
+
+            <div id="extra-block" class="hidden">
+              <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
+                Perspective on Learning
+              </h1>
+              <p class="mb-4 flex text-lg text-gray-800 text-justify">
+                I encourage students to avoid rote application of formulas and techniques, and instead focus on
+                approaching
+                the material conceptually. I want my students to learn to be comfortable with not knowing answers
+                immediately,
+                and to gain confidence in their knowledge and skillset to try new ideas. In class, my students will
+                explore one
+                theorem in multiple ways —algebraically, geometrically, numerically, etc —and practice how to compare
+                and
+                choose.
+                Not only does this lead to a deeper understanding of the material, but my students learn flexible
+                problem
+                solving
+                skills which can be used across all disciplines.
+              </p>
+              <p class="mb-4 flex text-lg text-gray-800 text-justify">
+                However, I recognize that this is much easier said than done, especially in the presence of pre-existing
+                barriers to mathematics.
+                For example, 105L and 106L are often the first math classes a student will take at Duke, and many high
+                schools,
+                both U.S. and international, focus on standardized testing over conceptual learning. Not only do
+                standardized tests
+                prevent students from engaging with the material in a productive way, but they have also proven to be
+                biased against women,
+                gender minorities, and BIPOC (Moss, 1989), and are poor indicators of success (Kartal, 2016).
+              </p>
+              <p class="mb-4 flex text-lg text-gray-800 text-justify">
+                Some of my students struggled with (or have not taken) the AP Calculus exam and initially lacked
+                confidence in mathematics.
+                However, after covering foundational mathematical concepts without any formulas or memorization, they
+                learned how to build
+                more complex ideas from the ground up. For instance, in Math 106L, we spent more than a week practicing
+                how to approximate
+                the area under a curve using Riemann sums, simply by adding up the areas of rectangles that roughly fill
+                the area.
+                Then, as a class we discussed how to improve our estimate by using more rectangles, each smaller in
+                width.
+                Finally, we establised the exact area under a curve —the definite integral —as the Riemann sum of n
+                rectangles,
+                with n approaching infinity.
+              </p>
+              <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
+                Teaching Values
+              </h1>
+              <p class="mb-4 flex text-lg text-gray-800 text-justify">
+                I try to adapt my teaching style to the composition of students in a particular semester.
+                My 105L class during Fall 2018 had four students, which allowed for individualized attention.
+                I had my students up at the chalkboard with me regularly, in place of timed quizzes.
+                In Fall 2019, my 105L class had 17 students, a perfect size for doing in-class activities
+                in groups of three or four. During lectures, I had students chime in or ask questions, and I regularly
+                had students volunteer to come up to the board to explain a problem. To give students more opportunities
+                for individualized attention in my larger classes, I arrive to class 30 minutes early and leave 30
+                minutes
+                late each day, hold extra office hours, and check in regularly with students who have struggled with the
+                material.
+              </p>
+              <p class="mb-4 text-lg text-gray-800 text-justify">
+                Additionally, I take student feedback very seriously. I rely a lot on my interactions with students in
+                class and
+                during office hours, as well as on
+                <a href="#feedback" class="text-blue-700" style="text-decoration:underline;">written feedback</a>. I pay
+                attention to the reactions of my students during class,
+                ask lots of questions, and slow down when needed. I am always adapting to what works. My favorite
+                student
+                feedback,
+                from office hours, was one asking for more graphs and pictures. Even for calculus concepts often
+                discussed
+                algebraically,
+                a few extra graphs on the board helped some students to grasp the concepts better, and others to
+                understand a new perspective
+                and gain a deeper understanding of the material.
+              </p>
+              <h1 class="text-left text-xl mt-2 mb-4 font-semibold leading-normal">
+                Diversity and Inclusion
+              </h1>
+              <p class="mb-4 text-lg text-gray-800 text-justify">
+                Finally, I am a strong proponent of diversity, equity, and inclusion (DEI) work in mathematics. I spend
+                a
+                lot of time organizing
+                for the Duke chapter of the Association for Women in Mathematics (AWM), a club dedicated to creating an
+                inclusive and tight-knit
+                community of mathematicians at Duke, and to promoting interest in mathematics. Besides through AWM, I
+                actively support all departmental
+                DEI initiatives. Recently, the Duke mathematics department has been discussing antiracist plans in
+                response to a
+                <a href="https://tinyurl.com/mathduke" class="text-blue-700"
+                  style="text-decoration:underline;">petition</a> written on August 3rd, 2020. I believe that my impact
+                as
+                an educator extends beyond the classroom,
+                and my goal as a math teacher is to not only teach well, but to help create support and community for my
+                students and colleagues.
+              </p>
+            </div>
+            <div class="container mx-auto px-10">
+              <div id="show-more" class="flex justify-center text-center">
+                <button id="hidden-toggle" class="font-bold text-blue-600 hover:text-gray-800" style="outline:none;"
+                  onclick="showMore()">Show more
+                </button>
+              </div>
+            </div>
           </div>
+
+
         </div>
+      </div>
       </div>
     </section>
 
