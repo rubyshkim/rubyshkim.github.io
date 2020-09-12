@@ -24,7 +24,7 @@
 
 ### HTML Profile Page
 
-To get started only unzip the downloaded content, enter the `Profile Page/html-profile-page` and open the `.html` file in your favorite Browser.
+To get started only unzip the downloaded content, enter the `Profile Page/html-profile-page` and open the `.html` file in your favorite Browser. 
 
 
 
