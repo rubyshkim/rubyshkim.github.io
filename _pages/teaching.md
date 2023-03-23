@@ -9,6 +9,7 @@ nav_order: 3
 
 **Courses taught at the University of Michigan:** 
 * Math 156 (Applied Honors Calculus II)
+* Math 462 (Mathematical Modeling)
 
 **Courses taught at Duke University:**
 * Math 105L (Laboratory Calculus and Functions I)
