@@ -30,9 +30,9 @@ nav_order: 3
 * Allen Shields Outstanding Postdoctoral Assistant Professor Teaching Award (2024)\
 _University of Michigan Department of Mathematics_
 * Nomination for Dean’s Award for Excellence in Teaching (2021)\
-Duke Graduate School
+_Duke Graduate School_
 * L.P. Smith Award for Excellence in Teaching (2020)\
-Duke Mathematics Department
+_Duke Mathematics Department_
 
 
 
