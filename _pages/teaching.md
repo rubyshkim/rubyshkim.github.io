@@ -14,6 +14,10 @@ nav_order: 3
 * Math 462: Mathematical Modeling\
 [Winter 2023 Syllabus](/assets/pdf/462_syllabus.pdf)\
 [Winter 2023 Teaching Evaluations](/assets/pdf/WN2023_462_evals.pdf)
+[Winter 2024 Teaching Evaluations](/assets/pdf/WN2024_462_evals.pdf)
+* PharmSci 580: Mathematical Principles in Pharmaceutical Sciences\
+[Fall 2023 Syllabus](/assets/pdf/580_syllabus.pdf)\
+[Fall 2023 Teaching Evaluations](/assets/pdf/FA2023_580_evals.pdf)
 
 **Courses taught at Duke University:**
 * Math 105L: Laboratory Calculus and Functions I
