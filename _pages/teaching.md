@@ -28,8 +28,13 @@ nav_order: 3
 * Math 218D: Matrices and Vectors Discussion
 * Lab TA for Math 111L: Laboratory Calculus I
 
-
-
+**Teaching Awards:**
+* Allen Shields Outstanding Postdoctoral Assistant Professor Teaching Award (2024)\
+University of Michigan Department of Mathematics
+* Nomination for Dean’s Award for Excellence in Teaching (2021)\
+Duke Graduate School
+* L.P. Smith Award for Excellence in Teaching (2020)\
+Duke Mathematics Department
 
 
 
