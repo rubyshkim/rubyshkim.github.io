@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-My research interests are in mathematical biology studied using methods from dynamical systems, data analysis, and scientific computing. I am driven to investigate human health problems using advanced mathematical tools. My main areas of focus have been: (1) Development and analysis of mechanistic models of circadian phenomena, (2) Analysis of large-scale wrist-wearable activity, heart rate, and sleep data, and (3) Mathematical models that advance women’s health. The inner workings of the human body are extremely complex and tightly regulated, with molecules and cells interacting in ways that are impossible to understand without the use of mathematical models. In turn, these biological systems motivate exciting and new mathematics.
+My research interests are in mathematical biology studied using methods from dynamical systems, data analysis, and scientific computing. I am driven to investigate human health problems using advanced mathematical tools. My main areas of focus have been: (1) Development and analysis of mechanistic models of circadian phenomena, (2) Analysis of large-scale wrist-wearable activity, heart rate, and sleep data, and (3) Mathematical models that advance women’s health.
 
 <a href="https://scholar.google.com/citations?user=M3-eR7sAAAAJ&hl=en">
 <button class="button-13" role="button"><img src="../assets/img/googlescholar.png" alt="Google scholar icon" width="20"/>
