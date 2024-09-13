@@ -18,6 +18,8 @@ nav_order: 3
 * PharmSci 580: Mathematical Principles in Pharmaceutical Sciences\
 [Fall 2023 Syllabus](/assets/pdf/580_syllabus.pdf)\
 [Fall 2023 Teaching Evaluations](/assets/pdf/FA2023_580_evals.pdf)
+* Math 463: Mathematical Modeling in Biology\
+[Fall 2024 Syllabus](/assets/pdf/463_syllabus_FA24.pdf)
 
 **Courses taught at Duke University:**
 * Math 105L: Laboratory Calculus and Functions I
