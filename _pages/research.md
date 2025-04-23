@@ -42,4 +42,4 @@ Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: For
 
 **Student Research**
 
-![alt text](_site/assets/img/poster.png "Title")
+![alt text](_site/assets/img/poster.jpg "Title")
