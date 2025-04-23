@@ -7,13 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-My research interests are in mathematical biology studied using methods from dynamical systems, data science, and scientific computing. I am driven to investigate human health problems using advanced mathematical tools. My main areas of focus have been: (1) Development and analysis of mechanistic models of circadian phenomena, (2) Synchronization of neurons on a realistic network, (3) Analysis of large-scale wrist-wearable activity, heart rate, and sleep data, and (4) Mathematical models that advance women’s health. 
+I am an applied mathematician collaborating with biologists and clinicians. My research interests include: 
 
-<a href="https://scholar.google.com/citations?user=M3-eR7sAAAAJ&hl=en">
-<button class="button-13" role="button"><img src="../assets/img/googlescholar.png" alt="Google scholar icon" width="20"/>
- Google Scholar Profile
-</button>
-</a>
+- Circadian rhythms and sleep
+- Chronic pain, fatigue, and substance use
+- Applied dynamical systems
+
+Find me on [Google Scholar](https://scholar.google.com/citations?user=M3-eR7sAAAAJ&hl=en). I am open to new collaborations!
 
 **Dynamics of the Circadian Timekeeping System**
 
@@ -40,3 +40,6 @@ See this 2024 article on ["Why we know so little about women’s health."](https
 * Zhao L\*, **Kim R\***, Oremland LS, Chowkwale M, de Pillis LG, Brooks HZ. (2024). A Survey of
 Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: Ford Versypt, A.N., Segal, R.A., Sindi, S.S. (eds) Mathematical Modeling for Women’s Health. The IMA Volumes in Mathematics and its Applications, vol 166. Springer, Cham. [https://doi.org/10.1007/978-3-031-58516-6_3](https://doi.org/10.1007/978-3-031-58516-6_3)
 
+**Student Research**
+
+![alt text](_site/assets/img/poster.png "Title")
