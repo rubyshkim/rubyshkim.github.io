@@ -2,6 +2,8 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/turbolinks"></script>
+
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
@@ -75,3 +77,5 @@
     {% include scripts/search.liquid %}
   </body>
 </html>
+
+
