@@ -2,12 +2,12 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description:
 nav: true
 nav_order: 2
 ---
 
-I am an applied mathematician collaborating with biologists and clinicians. My research interests include: 
+I am an applied mathematician collaborating with biologists and clinicians. My research interests include:
 
 - Circadian rhythms and sleep
 - Chronic pain, fatigue, and substance use
@@ -23,25 +23,25 @@ Find me on [Google Scholar](https://scholar.google.com/citations?user=M3-eR7sAAA
 
 The circadian timekeeping system operates across multiple spatial and temporal scales, from molecular clocks in individual cells to networks of neurons that synchronize through fast synaptic and slower paracrine signaling. Together, these coupled dynamical systems form a robust and flexible framework influenced by environmental cues like light and meal timing.
 
-* **Kim R**, Reed MC. (2021). A mathematical model of circadian rhythms and dopamine. Theoretical Biology and Medical Modelling. 18(8). [https://doi.org/10.1186/s12976-021-00139-w](https://doi.org/10.1186/s12976-021-00139-w)
-* **Kim R**, Witelski TP. (2022). Uncovering the dynamics of a circadian-dopamine model influenced by the light-dark cycle. Mathematical Biosciences. 44: 108764. [https://doi.org/10.1016/j.mbs.2021.108764](https://doi.org/10.1016/j.mbs.2021.108764)
-* **Kim R**, Nijhout HF, Reed MC. (2023) Mathematical insights into the role of dopamine signaling in circadian entrainment. Mathematical Biosciences. 356: 108956. [https://doi.org/10.1016/j.mbs.2022.108956](https://doi.org/10.1016/j.mbs.2022.108956)
-* Best J, **Kim R**, Nijhout HF, Reed MC. (2024). A mathematical model of melatonin synthesis and interactions with the circadian clock. Mathematical Biosciences. [https://doi.org/10.1016/j.mbs.2024.109280](https://doi.org/10.1016/j.mbs.2024.109280)
+- **Kim R**, Reed MC. (2021). A mathematical model of circadian rhythms and dopamine. Theoretical Biology and Medical Modelling. 18(8). [https://doi.org/10.1186/s12976-021-00139-w](https://doi.org/10.1186/s12976-021-00139-w)
+- **Kim R**, Witelski TP. (2022). Uncovering the dynamics of a circadian-dopamine model influenced by the light-dark cycle. Mathematical Biosciences. 44: 108764. [https://doi.org/10.1016/j.mbs.2021.108764](https://doi.org/10.1016/j.mbs.2021.108764)
+- **Kim R**, Nijhout HF, Reed MC. (2023) Mathematical insights into the role of dopamine signaling in circadian entrainment. Mathematical Biosciences. 356: 108956. [https://doi.org/10.1016/j.mbs.2022.108956](https://doi.org/10.1016/j.mbs.2022.108956)
+- Best J, **Kim R**, Nijhout HF, Reed MC. (2024). A mathematical model of melatonin synthesis and interactions with the circadian clock. Mathematical Biosciences. [https://doi.org/10.1016/j.mbs.2024.109280](https://doi.org/10.1016/j.mbs.2024.109280)
 
 ##### Mathematical Models from Wrist-Wearable Device Data
 
 I am interested in translating wearable device data into digital biomarkers. For example, we can use mathematical models to study various circadian rhythms (in activity, heart rate, and sleep) and the misalignment between them. We have found that circadian misalignment is linked with mood, seasonal behavior, and shift work adaptation.
 
-* **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Under review). Seasonal timing and interindividual differences in shiftwork adaptation.
-* Lee MP, Kim DW, Fang Y, **Kim R**, Bohnert ASB, Sen S, Forger DB (2024). The real-world association between digital markers of circadian disruption and mental health risks. NPJ Digital Medicine. [https://doi.org/10.1038/s41746-024-01348-6](https://doi.org/10.1038/s41746-024-01348-6)
+- **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Under review). Seasonal timing and interindividual differences in shiftwork adaptation.
+- Lee MP, Kim DW, Fang Y, **Kim R**, Bohnert ASB, Sen S, Forger DB (2024). The real-world association between digital markers of circadian disruption and mental health risks. NPJ Digital Medicine. [https://doi.org/10.1038/s41746-024-01348-6](https://doi.org/10.1038/s41746-024-01348-6)
 
 ##### Mathematical Modeling for Women's Health
 
 Women have historically been underrepresented in medical studies, contributing to health disparities. See this 2024 article on ["Why we know so little about women’s health."](https://www.aamc.org/news/why-we-know-so-little-about-women-s-health) Mathematical models allow for a stronger understanding of human health problems and can be used to advance personalized healthcare approaches.
 
-* **Kim R**, Nijhout HF, Reed MC. (2021). One-carbon metabolism during the menstrual cycle and pregnancy. PLoS Computational Biology. 17(12): e1009708. [https://doi.org/10.1371/journal.pcbi.1009708](https://doi.org/10.1371/journal.pcbi.1009708)
-* Zhao L\*, **Kim R\***, Oremland LS, Chowkwale M, de Pillis LG, Brooks HZ. (2024). A Survey of
-Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: Ford Versypt, A.N., Segal, R.A., Sindi, S.S. (eds) Mathematical Modeling for Women’s Health. The IMA Volumes in Mathematics and its Applications, vol 166. Springer, Cham. [https://doi.org/10.1007/978-3-031-58516-6_3](https://doi.org/10.1007/978-3-031-58516-6_3)
+- **Kim R**, Nijhout HF, Reed MC. (2021). One-carbon metabolism during the menstrual cycle and pregnancy. PLoS Computational Biology. 17(12): e1009708. [https://doi.org/10.1371/journal.pcbi.1009708](https://doi.org/10.1371/journal.pcbi.1009708)
+- Zhao L\*, **Kim R\***, Oremland LS, Chowkwale M, de Pillis LG, Brooks HZ. (2024). A Survey of
+  Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: Ford Versypt, A.N., Segal, R.A., Sindi, S.S. (eds) Mathematical Modeling for Women’s Health. The IMA Volumes in Mathematics and its Applications, vol 166. Springer, Cham. [https://doi.org/10.1007/978-3-031-58516-6_3](https://doi.org/10.1007/978-3-031-58516-6_3)
 
 ---
 
