@@ -32,7 +32,7 @@ The circadian timekeeping system operates across multiple spatial and temporal s
 
 I am interested in translating wearable device data into digital biomarkers. For example, we can use mathematical models to study various circadian rhythms (in activity, heart rate, and sleep) and the misalignment between them. We have found that circadian misalignment is linked with mood, seasonal behavior, and shift work adaptation.
 
-- **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Under review). Seasonal timing and interindividual differences in shiftwork adaptation.
+- **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Accepted). Seasonal timing and interindividual differences in shiftwork adaptation. NPJ Digital Medicine.
 - Lee MP, Kim DW, Fang Y, **Kim R**, Bohnert ASB, Sen S, Forger DB (2024). The real-world association between digital markers of circadian disruption and mental health risks. NPJ Digital Medicine. [https://doi.org/10.1038/s41746-024-01348-6](https://doi.org/10.1038/s41746-024-01348-6)
 
 ##### Mathematical Modeling for Women's Health

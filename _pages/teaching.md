@@ -37,6 +37,8 @@ nav_order: 3
 
 - Coding Theory at [Summer Workshop in Mathematics](https://sites.duke.edu/swim/) (Summer 2022)
 
+---
+
 #### Teaching Awards
 
 - Allen Shields Outstanding Postdoctoral Assistant Professor Teaching Award (2024)\
