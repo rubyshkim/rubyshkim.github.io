@@ -3,7 +3,8 @@ layout: about
 title: Home
 permalink: /
 subtitle: |
-  **Postdoctoral Assistant Professor**, Mathematics, University of Michigan (2022-present)<br>
+  **Postdoctoral Research Fellow**, Michigan Medicine, University of Michigan (2025-present)<br>
+  **Postdoctoral Assistant Professor**, Mathematics, University of Michigan (2022-2025)<br>
   **PhD**, Mathematics, Duke University (2017-2022)<br>
   **BA**, Mathematics, Pomona College (2013-2017)
 
@@ -27,6 +28,6 @@ social: true # includes social icons at the bottom of the page
 </button>
 </a>
 
-I am a postdoc in the Department of Mathematics at the University of Michigan. I received my PhD in Mathematics from Duke University in May 2022. My research interests are in mathematical biology studied using methods from dynamical systems and scientific computing.
+I am a postdoc in the Department of Anethesiology at Michigan Medicine. I received my PhD in Mathematics from Duke University in May 2022. My research interests are in mathematical biology studied using methods from dynamical systems and scientific computing. Some topics of recent interest are circadian rhythms, sleep, pain, and women's health.
 
-I have seven years of experience teaching college mathematics including calculus, linear algebra, differential equations, and mathematical modeling. I also have a [Certificate in College Teaching](https://gradschool.duke.edu/professional-development/programs/certificate-college-teaching/) from Duke University.
+I have extensive experience teaching undergraduate and graduate-level mathematics including calculus, linear algebra, differential equations, and mathematical modeling. I have designed my own courses at the University of Michigan, including Mathematical Modeling, Mathematical Modeling in Biology, and Topics in Mathematical Biology. I also have a [Certificate in College Teaching](https://gradschool.duke.edu/professional-development/programs/certificate-college-teaching/) from Duke University.

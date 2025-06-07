@@ -7,7 +7,18 @@ nav: true
 nav_order: 2
 ---
 
-I am an applied mathematician collaborating with biologists and clinicians. My research interests include:
+<!-- Find me on [Google Scholar](https://scholar.google.com/citations?user=M3-eR7sAAAAJ&hl=en). -->
+
+
+## Selected Publications
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+  {% bibliography --query @*[year>=2020] %}
+</div>
+
+<!-- I am an applied mathematician collaborating with biologists and clinicians. My research interests include:
 
 - Circadian rhythms and sleep
 - Chronic pain, fatigue, and substance use
@@ -32,7 +43,7 @@ The circadian timekeeping system operates across multiple spatial and temporal s
 
 I am interested in translating wearable device data into digital biomarkers. For example, we can use mathematical models to study various circadian rhythms (in activity, heart rate, and sleep) and the misalignment between them. We have found that circadian misalignment is linked with mood, seasonal behavior, and shift work adaptation.
 
-- **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Accepted). Seasonal timing and interindividual differences in shiftwork adaptation. NPJ Digital Medicine.
+- **Kim R**, Fang Y, Lee MP, Kim DW, Tang Z, Sen S, Forger DB (Accepted). Seasonal timing and interindividual differences in shiftwork adaptation. NPJ Digital Medicine. 
 - Lee MP, Kim DW, Fang Y, **Kim R**, Bohnert ASB, Sen S, Forger DB (2024). The real-world association between digital markers of circadian disruption and mental health risks. NPJ Digital Medicine. [https://doi.org/10.1038/s41746-024-01348-6](https://doi.org/10.1038/s41746-024-01348-6)
 
 ##### Mathematical Modeling for Women's Health
@@ -41,15 +52,29 @@ Women have historically been underrepresented in medical studies, contributing t
 
 - **Kim R**, Nijhout HF, Reed MC. (2021). One-carbon metabolism during the menstrual cycle and pregnancy. PLoS Computational Biology. 17(12): e1009708. [https://doi.org/10.1371/journal.pcbi.1009708](https://doi.org/10.1371/journal.pcbi.1009708)
 - Zhao L\*, **Kim R\***, Oremland LS, Chowkwale M, de Pillis LG, Brooks HZ. (2024). A Survey of
-  Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: Ford Versypt, A.N., Segal, R.A., Sindi, S.S. (eds) Mathematical Modeling for Women’s Health. The IMA Volumes in Mathematics and its Applications, vol 166. Springer, Cham. [https://doi.org/10.1007/978-3-031-58516-6_3](https://doi.org/10.1007/978-3-031-58516-6_3)
+  Mathematical Modeling of Hormonal Contraception and the Menstrual Cycle. In: Ford Versypt, A.N., Segal, R.A., Sindi, S.S. (eds) Mathematical Modeling for Women’s Health. The IMA Volumes in Mathematics and its Applications, vol 166. Springer, Cham. [https://doi.org/10.1007/978-3-031-58516-6_3](https://doi.org/10.1007/978-3-031-58516-6_3) -->
+
+<div style="margin-top: 2em;"></div>
 
 ---
 
+<div style="margin-top: 2em;"></div>
+
 ## Recent Student Projects
 
+<div style="margin-top: 2em;"></div>
+
 - In Winter 2023, Winter 2024, and Winter 2025, I mentored teams of 3 undergraduate students (for a total of 9 students) for the [Mathematical Contest in Modeling (MCM)](https://www.comap.com/contests/mcm-icm).
+
+<div style="margin-top: 1em;"></div>
+
 - In Fall 2024, I advised two undergraduate students on their project "Immune Cancer Interaction with N Dimensional Continuous Adversarial Mutation," which received the [2024 Rick Riolo Undergraduate Research Prize](https://lsa.umich.edu/cscs/news-events/all-news/search-news/2024-rick-riolo-memorial-undergraduate-research-prize-award-reci.html).
+
+<div style="margin-top: 1em;"></div>
+
 - In Winter 2023, I advised a team of 5 undergraduate students on a project titled "Visualizing Oscillatory Dynamics of Circadian Rhythms" as part of [Laboratory of Geometry at Michigan LoG(M)](https://lsa.umich.edu/math/undergraduates/research-and-career-opportunities/research/LoGM.html).
+
+<div style="margin-top: 2em;"></div>
 
 <div style="text-align: center;">
   <img src="/assets/img/poster.jpg" alt="Student Poster" style="max-width: 100%; height: auto;">
