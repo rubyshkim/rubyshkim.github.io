@@ -28,6 +28,6 @@ social: true # includes social icons at the bottom of the page
 </button>
 </a>
 
-I am a postdoc in the Department of Anethesiology at Michigan Medicine. I received my PhD in Mathematics from Duke University in May 2022. My research interests are in mathematical biology studied using methods from dynamical systems and scientific computing. Some topics of recent interest are circadian rhythms, sleep, pain, and women's health.
+I am a postdoc in the Department of Anesthesiology at Michigan Medicine. I received my PhD in Mathematics from Duke University in May 2022. My research interests are in mathematical biology studied using methods from dynamical systems and scientific computing. Some topics of recent interest are circadian rhythms, sleep, pain, and women's health.
 
 I have extensive experience teaching undergraduate and graduate-level mathematics including calculus, linear algebra, differential equations, and mathematical modeling. I have designed my own courses at the University of Michigan, including Mathematical Modeling, Mathematical Modeling in Biology, and Topics in Mathematical Biology. I also have a [Certificate in College Teaching](https://gradschool.duke.edu/professional-development/programs/certificate-college-teaching/) from Duke University.
