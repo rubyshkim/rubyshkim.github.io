@@ -1,0 +1,195 @@
+/* ----------------- Fonts ----------------- */
+body {
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif;  /* main text */
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #222;
+    display: flex;
+    flex-direction: column;  /* stack header, main, footer vertically */
+    min-height: 100vh;       /* at least full viewport height */
+}
+
+/* Headers and navigation */
+h1, h2, h3, .header-right a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* ----------------- Header ----------------- */
+.site-header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.header-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------- Main Content ----------------- */
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex: 1;                 /* main content grows to fill space */
+}
+
+/* ----------------- About Page ----------------- */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.about-left {
+    flex: 0 0 180px;
+}
+
+.about-left .profile-pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.contact-info {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-info li {
+    margin-bottom: 8px;
+}
+
+/* ----------------- Research Page ----------------- */
+.projects, .publications {
+    margin-bottom: 40px;
+}
+
+.publications ul, .projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.publications li, .projects li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* ----------------- Teaching Page ----------------- */
+.teaching-page, 
+.teaching-page * {
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif !important;  /* body text */
+}
+
+.teaching-page h2,
+.teaching-page h3 {
+    font-family: 'Roboto', sans-serif;  /* headings stay Roboto */
+}
+
+.teaching-page ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.teaching-page li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Mentoring list */
+.mentoring-list li {
+    margin-bottom: 10px;
+}
+
+/* ----------------- Headings ----------------- */
+h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* ----------------- Footer ----------------- */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+
+/* ----------------- Responsive ----------------- */
+@media (max-width: 700px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-right {
+        text-align: center;
+    }
+
+    .about-left {
+        flex: 0 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Make footer stick to the bottom */
+html, body {
+    height: 100%;        /* full height of viewport */
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- Activities Page ----------------- */
+.activities-page ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.activities-page li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Bold titles or key items in the list */
+.activities-page li strong {
+    font-weight: bold;
+    color: #222;
+}
+
+.teaching-page h2,
+.teaching-page h3 {
+    font-family: 'Roboto', sans-serif;  /* headings stay Roboto */
+}
+
+
+
