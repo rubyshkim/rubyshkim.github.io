@@ -1,14 +1,14 @@
 /* ----------------- Fonts ----------------- */
 body {
-    font-family: 'Latin Modern Roman', 'Times New Roman', serif;  /* main text */
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #222;
     display: flex;
-    flex-direction: column;  /* stack header, main, footer vertically */
-    min-height: 100vh;       /* at least full viewport height */
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Headers and navigation */
@@ -52,7 +52,7 @@ main {
     padding: 30px;
     max-width: 900px;
     margin: 0 auto;
-    flex: 1;                 /* main content grows to fill space */
+    flex: 1;
 }
 
 /* ----------------- About Page ----------------- */
@@ -64,11 +64,14 @@ main {
 }
 
 .about-left {
-    flex: 0 0 180px;
+    flex: 0 0 180px;        /* fixed column width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-left .profile-pic {
-    width: 100%;
+    width: 180px;           /* fixed photo size instead of 100% */
     border-radius: 50%;
 }
 
@@ -76,13 +79,62 @@ main {
     flex: 1;
 }
 
-.contact-info {
-    list-style: none;
-    padding-left: 0;
+/* CV download button */
+.cv-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.45rem 1rem;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s, color 0.2s;
+}
+.cv-button:hover {
+    background-color: #333;
+    color: #fff;
 }
 
-.contact-info li {
-    margin-bottom: 8px;
+/* Social icon buttons below the photo */
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.social-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.social-icon-btn svg {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+}
+.social-icon-btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/* Education list */
+.education-list {
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+    line-height: 1.7;
+}
+.education-list li {
+    margin-bottom: 0.6rem;
 }
 
 /* ----------------- Research Page ----------------- */
@@ -101,14 +153,13 @@ main {
 }
 
 /* ----------------- Teaching Page ----------------- */
-.teaching-page, 
-.teaching-page * {
-    font-family: 'Latin Modern Roman', 'Times New Roman', serif !important;  /* body text */
+.teaching-page {
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif;
 }
 
 .teaching-page h2,
 .teaching-page h3 {
-    font-family: 'Roboto', sans-serif;  /* headings stay Roboto */
+    font-family: 'Roboto', sans-serif;
 }
 
 .teaching-page ul {
@@ -142,6 +193,23 @@ footer {
     margin-top: 50px;
 }
 
+/* ----------------- Activities Page ----------------- */
+.activities-page ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.activities-page li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.activities-page li strong {
+    font-weight: bold;
+    color: #222;
+}
+
 /* ----------------- Responsive ----------------- */
 @media (max-width: 700px) {
     .about-container {
@@ -158,38 +226,3 @@ footer {
         margin-bottom: 20px;
     }
 }
-
-/* Make footer stick to the bottom */
-html, body {
-    height: 100%;        /* full height of viewport */
-    margin: 0;
-    padding: 0;
-}
-
-/* ----------------- Activities Page ----------------- */
-.activities-page ul {
-    list-style-type: disc;
-    padding-left: 25px;
-    margin-bottom: 20px;
-}
-
-.activities-page li {
-    margin-bottom: 8px;
-    line-height: 1.6;
-    font-style: normal;
-    font-weight: normal;
-}
-
-/* Bold titles or key items in the list */
-.activities-page li strong {
-    font-weight: bold;
-    color: #222;
-}
-
-.teaching-page h2,
-.teaching-page h3 {
-    font-family: 'Roboto', sans-serif;  /* headings stay Roboto */
-}
-
-
-
